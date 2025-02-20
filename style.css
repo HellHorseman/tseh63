@@ -71,12 +71,12 @@ body {
   text-align: center;
   font-size: 60px;
 }
-.top__title_sub {
+.top__title-sub {
   color: rgb(165, 27, 27);
   text-align: center;
   font-size: 50px;
 }
-.top__title_sub_text {
+.top__title-sub-text {
   max-width: 1000px;
   color: rgb(165, 27, 27);
   text-align: center;
@@ -111,7 +111,7 @@ body {
   height: 500px;
 }
 
-.bottom {
+.down {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,17 +120,17 @@ body {
   width: 96%;
   max-height: 500px;
 }
-.bottom__title {
+.down__title {
   color: rgb(165, 27, 27);
   text-align: center;
   font-size: 60px;
 }
-.bottom__title_sub {
+.down__title-sub {
   color: rgb(165, 27, 27);
   text-align: center;
   font-size: 50px;
 }
-.bottom__title_sub_text {
+.down__title-sub-text {
   max-width: 1000px;
   color: rgb(165, 27, 27);
   text-align: center;
@@ -143,6 +143,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding-left: 20px;
   padding-right: 20px;
   max-height: 700px;
@@ -160,7 +161,7 @@ body {
   padding-right: 10px;
   padding-left: 10px;
 }
-.footer__adress_text {
+.footer__adress-text {
   color: rgb(165, 27, 27);
   font-size: 35px;
 }
@@ -172,55 +173,55 @@ body {
   row-gap: 50px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 37px;
-  color: rgb(165, 27, 27);
-  font-size: 35px;
-  text-decoration: none;
   z-index: 10;
 }
-.footer__contacts_mail {
-  color: rgb(165, 27, 27);
-  font-size: 35px;
-  text-decoration: none;
-}
-.footer__contacts_phone {
-  color: rgb(165, 27, 27);
-  font-size: 35px;
-  text-decoration: none;
-}
-.footer__contacts_telega {
-  color: rgb(165, 27, 27);
-  font-size: 35px;
-  text-decoration: none;
-}
-.footer__contacts_vk {
+
+.mail {
   color: rgb(165, 27, 27);
   font-size: 35px;
   text-decoration: none;
 }
 
-.footer__contacts_mail:hover {
+.mail:hover {
   color: rgb(244, 95, 95);
   cursor: pointer;
   font-size: 35px;
   text-decoration: none;
 }
 
-.footer__contacts_phone:hover {
+.phone {
+  color: rgb(165, 27, 27);
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.phone:hover {
   color: rgb(244, 95, 95);
   cursor: pointer;
   font-size: 35px;
   text-decoration: none;
 }
 
-.footer__contacts_telega:hover {
+.telega {
+  color: rgb(165, 27, 27);
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.telega:hover {
   color: rgb(244, 95, 95);
   cursor: pointer;
   font-size: 35px;
   text-decoration: none;
 }
 
-.footer__contacts_vk:hover {
+.vk {
+  color: rgb(165, 27, 27);
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.vk:hover {
   color: rgb(244, 95, 95);
   cursor: pointer;
   font-size: 35px;
