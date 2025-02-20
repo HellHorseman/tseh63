@@ -39,6 +39,11 @@
 
 body {
     font-family: 'USSR', sans-serif;
+    max-width: 2800px;
+}
+
+li {
+    list-style-type: none;
 }
 
 .center {
@@ -183,6 +188,8 @@ body {
     }
 
     &__adress-text {
+        text-align: center;
+        line-height: 1.4;
         color: rgb(165 27 27);
         font-size: 35px;
     }
